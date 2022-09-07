@@ -1,0 +1,93 @@
+name: Hungergames
+main: com.mczone.hungergames.Hungergames
+version: 1.0.1
+author: c_co
+commands:
+  createarena:
+    description: creates a new arena.
+    usage: /<command> [arena name]
+  removearena:
+    description: removes specified arena.
+    usage: /<command> [arena name]
+  loadarena:
+    description: loads specified arena.
+    usage: /<command> [arena name]
+  arena:
+    description: checks if world belongs to arena.
+    usage: /<command>
+  arenas:
+    description: list all arenas.
+    usage: /<command>
+  pause:
+    description: pause the game.
+    usage: /<command>
+  start:
+    description: force start the game.
+    usage: /<command>
+  skip:
+    description: skip countdown timer.
+    usage: /<command>
+  vote:
+    description: vote for maps.
+    aliases: v
+    usage: /<command> [map number]
+  load:
+    description: loads map.
+    usage: /<command> [map name]
+  unload:
+    descripton: unloads map.
+    usage: /<command> [map name]
+  remove:
+    description: removes map.
+    usage: /<command> [map name]
+  map:
+    description: teleports to map.
+    usage: /<command> [map name]
+  maps:
+    description: list all loaded maps.
+    usage: /<command>
+  tier:
+    description: Tier chests.
+    usage: /<command>
+  setspawn:
+    description: sets current spawn.
+    usage: /<command> [0-23]
+  delspawn:
+    description: removes specified spawn.
+    usage: /<command> [0-23]
+  savespawns:
+    description: saves all spawns.
+    usage: /<command>
+  confirmspawn:
+    description: confirmation to overwrite current spawn.
+    usage: /<command>
+  savechests:
+    description: saves all set chests.
+    usage: /<command>
+  save:
+    description: save changes to specified world.
+    usage: /<command>
+  spawn:
+    description: tool used to set spawns.
+    usage: /<command>
+  stats:
+    description: returns the current stats for player.
+    aliases: debug
+    usage: /<command>
+  list:
+    description: list all players and specs in the game.
+    aliases: l
+    usage: /<command>
+  bounty:
+    description:  set a bounty for a player.
+    usage: /<command> <player name> <amount>
+  confirmbounty:
+    description: confirms specified bounty on player.
+    usage: /<command>
+  sponsor:
+    description: confirm bounty.
+    usage: /<command> <player name>
+  spec:
+    description: spectate other players.
+    aliases: spec
+    usage: /<command > <player name>
